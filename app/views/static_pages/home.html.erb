@@ -1,5 +1,16 @@
-<% provide(:title, 'Home')%>
+<%= provide(:title, 'Home') %>
 
-		<h1>Sample App</h1>
-		<p>This the jome page for rails 4.0 test</p>
+<div class="center hero-unit">
+	
+	<h1>Welcome to the Sample App</h1>
+		<h2>This the jome page for 
+			<a href="http://railstutorial.org/"> rails 4.0</a>
+			test
+		</h2>
+		
+		<%= link_to "Sign up now!", '#', class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "rails"), 'http://rubyonrails.org/' %>		
+			
 
