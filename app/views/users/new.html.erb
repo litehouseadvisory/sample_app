@@ -7,11 +7,11 @@
     <%= form_for(@user) do |f| %>
 	  <%= render 'shared/error_messages' %>
 
-      <%= f.text_field :name, :placeholder => "name" %>
+      <%= f.text_field :name, :placeholder => "name" %></br>
 
-      <%= f.text_field :email, :placeholder => "email" %>
+      <%= f.text_field :email, :placeholder => "email" %></br>
 
-      <%= f.password_field :password , :placeholder => "password" %>
+      <%= f.password_field :password , :placeholder => "password" %></br>
 
       <%= f.password_field :password_confirmation, :placeholder => "password confirmation" %>
 
